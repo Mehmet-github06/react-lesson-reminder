@@ -1,4 +1,5 @@
 import data from "../../helper/data";
+import "./lesson.css";
 
 const LessonCard = () => {
   return (
