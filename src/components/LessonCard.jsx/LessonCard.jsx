@@ -1,12 +1,25 @@
-import React from 'react'
+import data from "../../helper/data";
 
 const LessonCard = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      {data.map(({ id, name, image, hour }) => (
+        <div key={id} className="lesson">
+          <div>
+            <img src={image} alt={name} />
+          </div>
+          <div className="lesson-text">
+            <p>
+              Lesson Name:<span>{name}</span>
+            </p>
+            <p>
+              Lesson Hoour:<span>{hour}</span>
+            </p>
+          </div>
+        </div>
+      ))}
+    </>
+  );
+};
 
-export default LessonCard
-
+export default LessonCard;
