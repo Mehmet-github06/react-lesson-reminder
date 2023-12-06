@@ -83,6 +83,6 @@ Build a Lesson Reminder App using ReactJS.
 
 ## Demo
 
-  <a href="https://lesson-reminder-ass.vercel.app/" target="_blank">React Lesson Reminder</a>
+  <a href="https://react-lesson-reminder-app.netlify.app/" target="_blank">React Lesson Reminder</a>
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
